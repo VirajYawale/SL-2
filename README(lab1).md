@@ -112,9 +112,9 @@ print(f"R² Score: {r2}")
 **In lab-1 file:**
 we perform performs Linear Regression on the Boston Housing Dataset to predict house prices (MEDV) based on multiple features.
 
-[Explaination link!](https://chatgpt.com/share/67a8e75d-7444-8006-8915-35374ab60cb5)
+[Explaination link!](https://chatgpt.com/share/67a8edf1-f818-8006-bb9a-4310a9cc2ffe)
 
-Also, the Polynomial Regression [Explaination link!](https://chatgpt.com/share/67a8e8ff-6848-8006-9946-90dfde4d9ab8)
+Also, the Polynomial Regression [Explaination link!](https://chatgpt.com/share/67a8ed76-9f00-8006-8e82-e0b1851f2b87)
 
 Use of pipeline in code [Explanation link!](https://chatgpt.com/share/67a8ea52-3298-8006-ad59-9e594f3c7be0)
 
