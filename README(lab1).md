@@ -98,6 +98,7 @@ print(f"R² Score: {r2}")
 - Lower MSE means better accuracy.
 - ```r2_score(y_test, y_pred):``` Measures how well the model explains the variance in data.
 - R² closer to 1 means a better fit.
+
 **MSE (Mean Squared Error) → Measures how far the predictions are from actual values.** (Lower MSE means better accuracy.)
 
 **R² Score (R-Squared or Coefficient of Determination) → Measures how well the model explains the data.** (R² closer to 1 means a better fit.)
