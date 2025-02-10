@@ -3,6 +3,7 @@
 ### Lab-1:  Linear Regression and Polynomial Regression with Python using scikit-learn
 
 Linear Regression is a supervised machine learning algorithm used for predicting continuous numerical values based on input features. It establishes a linear relationship between independent variables (X) and dependent variable (Y).
+(refer: https://youtu.be/8jazNUpO3lQ?si=0C1jV95027nM9wo7)
 
 Ex: Predicting House Prices 🏡 :  Given the size of a house, predict its price.
 
