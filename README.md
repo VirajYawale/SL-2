@@ -10,4 +10,4 @@ REFER: https://youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw&si=0
 
 <p>Using the data from Rapid API website. <b>( Use its python code snippets and it not subscribed then subscribe it)</b></p>
 
-![img](Screenshot 2025-03-18 at 5.38.07 PM.png)
+![img](image/img1.png)
