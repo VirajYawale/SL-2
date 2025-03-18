@@ -25,6 +25,8 @@ In the data have data in different pages then we have to use the loop
 <b>Code: ![img](image/img4.png)  (here, we will change the page number in loop and append the data in dataframe)</b>
 
 <b>We can convert the data to csv file too</b>
-bash```
+
+
+```bash
     df.to_csv('top_news.csv')
 ```
