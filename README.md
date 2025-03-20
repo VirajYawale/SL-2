@@ -37,3 +37,8 @@ In the data have data in different pages then we have to use the loop
 Note: 
 
 ![img](image/img5.png)
+
+
+<h4><b>In real_time_fetch.ipnyb: we fetch the data from the real time api (https://newsdata.io/api-key) And in code if there is new news formed we add it to csv file <br> but if there is no new news then we don't add the news repeatedly.</b></h4>
+
+<p>But this can cause the big size csv file, so we should have to use the online data.</p>
