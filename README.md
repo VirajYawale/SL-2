@@ -32,3 +32,8 @@ In the data have data in different pages then we have to use the loop
 ```
 
 <h4>This dataset can be aploaded on kaggle. (which can boost your kaggle profile)</h4>
+
+
+Note: 
+
+![img](image/img5.png)
