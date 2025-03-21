@@ -122,7 +122,7 @@ initialize_db()
 
 <br>
 
-    <p>3. Auto-Delete Old Data After a Certain Period:</p>
+    ```3. Auto-Delete Old Data After a Certain Period:```
 
 
 
