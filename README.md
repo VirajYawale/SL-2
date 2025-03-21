@@ -46,39 +46,40 @@ Note:
 </h3>
         1.Limit the Number of Entries in the CSV
 
-        ```python
+```python
 
-            MAX_ROWS = 5000  # Keep only the last 5000 rows
+    MAX_ROWS = 5000  # Keep only the last 5000 rows
 
-            def save_news_to_csv(news_data, filename=NEWS_CSV):
-                if not news_data:
-                    print("✅ No new news updates.")
-                    return
-                
-                df = pd.DataFrame(news_data)
-                
-                # Append new data
-                df.to_csv(filename, mode="a", index=False, header=not os.path.exists(filename))
-                
-                # Limit the file size
-                if os.path.exists(filename):
-                    df_existing = pd.read_csv(filename)
-                    if len(df_existing) > MAX_ROWS:
-                        df_existing = df_existing.tail(MAX_ROWS)  # Keep only the last 5000 rows
-                        df_existing.to_csv(filename, index=False)
-                
-                print(f"✅ {len(news_data)} new articles added. Keeping last {MAX_ROWS} records.")
-
-
-        ```
+    def save_news_to_csv(news_data, filename=NEWS_CSV):
+        if not news_data:
+            print("✅ No new news updates.")
+            return
+        
+        df = pd.DataFrame(news_data)
+        
+        # Append new data
+        df.to_csv(filename, mode="a", index=False, header=not os.path.exists(filename))
+        
+        # Limit the file size
+        if os.path.exists(filename):
+            df_existing = pd.read_csv(filename)
+            if len(df_existing) > MAX_ROWS:
+                df_existing = df_existing.tail(MAX_ROWS)  # Keep only the last 5000 rows
+                df_existing.to_csv(filename, index=False)
+        
+        print(f"✅ {len(news_data)} new articles added. Keeping last {MAX_ROWS} records.")
 
 
-    <br>
+```
+
+
+<br>
 
     2. Use a Database Instead of CSV (Recommended): Instead of saving everything to a CSV file, you can store it in a lightweight database like SQLite.
 
-    ```bash
-        import sqlite3
+```python
+
+import sqlite3
 
 DB_NAME = "news.db"
 
@@ -117,14 +118,14 @@ def save_news_to_db(news_data):
 # Initialize DB before starting
 initialize_db()
 
-    ```
+```
 
-    <br>
+<br>
 
     3. Auto-Delete Old Data After a Certain Period:
 
-    ```bash
-        import datetime
+```python
+    import datetime
 
 def delete_old_news(days=7):
     conn = sqlite3.connect(DB_NAME)
@@ -142,7 +143,7 @@ def delete_old_news(days=7):
 # Call this function periodically
 delete_old_news()
 
-    ```
+```
 
 
 <b> Here we will use 2nd method: we will store it in database. </b>
