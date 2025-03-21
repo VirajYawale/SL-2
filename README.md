@@ -46,7 +46,7 @@ Note:
 </h3>
         1.Limit the Number of Entries in the CSV
 
-        ```bash
+        ```python
 
             MAX_ROWS = 5000  # Keep only the last 5000 rows
 
@@ -68,7 +68,7 @@ Note:
                         df_existing.to_csv(filename, index=False)
                 
                 print(f"✅ {len(news_data)} new articles added. Keeping last {MAX_ROWS} records.")
-                
+
 
         ```
 
