@@ -44,7 +44,7 @@ Note:
 <p>But this can cause the big size csv file, so we should have to use the online data.</p>
 <h3><b>To prevent the big csv file:</b>  <br>
 </h3>
-        1.Limit the Number of Entries in the CSV
+1.Limit the Number of Entries in the CSV
 
 ```python
 
@@ -75,7 +75,7 @@ Note:
 
 <br>
 
-    2. Use a Database Instead of CSV (Recommended): Instead of saving everything to a CSV file, you can store it in a lightweight database like SQLite.
+2. Use a Database Instead of CSV (Recommended): Instead of saving everything to a CSV file, you can store it in a lightweight database like SQLite.
 
 ```python
 
@@ -122,7 +122,7 @@ initialize_db()
 
 <br>
 
-    ```3. Auto-Delete Old Data After a Certain Period:```
+3. Auto-Delete Old Data After a Certain Period:
 
 
 
