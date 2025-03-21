@@ -122,7 +122,9 @@ initialize_db()
 
 <br>
 
-    3. Auto-Delete Old Data After a Certain Period:
+    <p>3. Auto-Delete Old Data After a Certain Period:</p>
+
+
 
 ```python
     import datetime
